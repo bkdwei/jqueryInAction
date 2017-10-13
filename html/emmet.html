@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/布局1.css" type="text/css" rel="stylesheet">
+    <title>emmet</title>
+</head>
+
+<body>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+1.后代：>
+    <nav>
+        <ul>
+          <li></li>
+        </ul>
+    </nav>
+    <div>
+      <ul>
+        <li></li>
+      </ul>
+    </div>
+2.兄弟：+
+    <div></div>
+    <p></p>
+    <blockquote></blockquote>
+
+    <div></div>
+    <p></p>
+    <h1></h1>
+3.上级：^
+    <div></div>
+    <div>
+      <p><span></span><em></em></p>
+      <blockquote></blockquote>
+    </div>
+
+    <div></div>
+    <div>
+      <p><span></span><em></em></p>
+    </div>
+    <blockquote></blockquote>
+5.分组：()
+<div>
+  <header>
+    <ul>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+  </header>
+  <footer>
+    <p></p>
+  </footer>
+</div>
+<div>
+  <header>
+    <ul>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+  </header>
+  <main>
+    <p+></p+>
+  </main>
+</div>
+<div>
+  <dl>
+    <dt>
+      <dd></dd>
+    </dt>
+    <dt>
+      <dd></dd>
+    </dt>
+    <dt>
+      <dd></dd>
+    </dt>
+  </dl>
+</div>
+<footer>
+  <p></p>
+</footer>
+6.乘法：*
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+7. 自增符号：$
+缩写：ul>li.item$*5
+
+<ul>
+  <li class="item1"></li>
+  <li class="item2"></li>
+  <li class="item3"></li>
+  <li class="item4"></li>
+  <li class="item5"></li>
+</ul>
+缩写：ul>li.item$@-*5
+<ul>
+  <li class="item5"></li>
+  <li class="item4"></li>
+  <li class="item3"></li>
+  <li class="item2"></li>
+  <li class="item1"></li>
+</ul>
+缩写：ul>li.item$@3*5
+<ul>
+  <li class="item3"></li>
+  <li class="item4"></li>
+  <li class="item5"></li>
+  <li class="item6"></li>
+  <li class="item7"></li>
+</ul>
+缩写：h$[title=item$]{Header $}*3
+<h1 title="item1">Header 1</h1>
+<h2 title="item2">Header 2</h2>
+<h3 title="item3">Header 3</h3>
+缩写：ul>li.item$$$*5
+<ul>
+  <li class="item001"></li>
+  <li class="item002"></li>
+  <li class="item003"></li>
+  <li class="item004"></li>
+  <li class="item005"></li>
+</ul>
+8.ID和类属性
+缩写：#header
+<div id="header"></div>
+缩写：.title
+<div class="title"></div>
+缩写：form#search.wide
+<from id="search" class="wide"></from>
+</body>
+
+</html>

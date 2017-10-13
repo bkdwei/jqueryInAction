@@ -1,0 +1,31 @@
+
+#header {
+    width: 100%;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+#content {
+        width: 100%;
+    border: 1px solid #000;
+    height: 80%;
+
+}
+
+#footer {
+        width: 100%;
+    border: 1px solid #000;
+    text-align: center;
+
+}
+
+.parallel {
+    width: 33.1%;
+    border: 1px solid #000;
+    float: left;
+    height: 100%;
+}
+
+body {
+    height: 960px;
+}

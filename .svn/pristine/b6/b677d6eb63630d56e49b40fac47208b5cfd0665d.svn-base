@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/common.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="../js/lib/jquery.js"></script>
+    <script type="text/javascript" src="../js/animate.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/animateText.js"></script>
+    <title>测试1</title>
+</head>
+
+<body>
+    <div id="header">
+        <span class="header-one">打卡时间</span>
+    </div>
+    <div id="loginArea">
+        <img src="../image/moon.jpg" width="400px" height="200px" /><br>
+
+        <input type="text" value="用户名" class="zhangHao" id="userName"><br>
+        <input type="text" value="密码" class="miMa" id="pwd" />b<br>
+        <button type="button" class="dengRu" id="login">登录</button>
+
+    </div>
+    <div id="footer">
+        <a href="register.html">立即注册</a>
+    </div>
+
+</body>
+
+</html>

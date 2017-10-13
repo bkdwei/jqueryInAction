@@ -1,0 +1,19 @@
+<body>
+  <script src="src/js/vue.js"></script>
+<div id="app">
+  <p>{{ message }}</p>
+  <ul>
+    <li v-for="item in list">{{ item }}</li>
+  </ul>
+</div>
+<script >
+arr = [1,2,3,4,5];
+new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello Vue.js1!',
+    list:arr
+  }
+})
+</script>
+</body>

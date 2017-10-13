@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/common.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="../js/lib/jquery.js"></script>
+    <script type="text/javascript" src="../js/lib/jquery.form.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../js/jqForm.js"></script>
+    <script type="text/javascript" src="../js/jqFormTest.js"></script>
+    <title>测试表单</title>
+</head>
+
+<body>
+    <form id="myForm" action="https://github.com" method="post">
+        姓名：<input type="text" name="name" id="name" value="aa" />
+        <br> 评论：<textarea name="comment" id="comment">abc</textarea>
+        <br><input type="submit" value="提交评论" />
+    </form>
+</body>
+
+</html>
